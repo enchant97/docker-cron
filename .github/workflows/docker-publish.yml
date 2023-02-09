@@ -3,7 +3,8 @@ name: publish
 on:
   workflow_dispatch:
   push:
-    - 'main'
+    branches:
+      - 'main'
   schedule:
     - cron: '0 0 1 * *'
 
