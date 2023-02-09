@@ -1,0 +1,3 @@
+0 0 * * * /scripts/daily
+0 0 * * 1 /scripts/weekly
+0 0 1 * * /scripts/monthly
